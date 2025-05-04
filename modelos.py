@@ -1,10 +1,10 @@
-#%pip install streamlit langchain
-#%pip install langchain-community
-#%pip install langchain-core
-#%pip install langchain-text-splitters
-#%pip install ollama
-#%pip install pdfplumber
-#%pip install langchain-ollama
+%pip install streamlit langchain
+%pip install langchain-community
+%pip install langchain-core
+%pip install langchain-text-splitters
+%pip install ollama
+%pip install pdfplumber
+%pip install langchain-ollama
 
 import streamlit as st
 from langchain_community.document_loaders import PDFPlumberLoader
